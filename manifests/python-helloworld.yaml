@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: python-helloworld
+    language: python
   name: python-helloworld
   namespace: default
 spec:
