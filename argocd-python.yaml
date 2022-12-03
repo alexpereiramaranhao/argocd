@@ -9,6 +9,9 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
+    helm:
+      valueFiles:
+      - values.yaml
     path: manifests
     repoURL: https://github.com/alexpereiramaranhao/argocd 
     targetRevision: HEAD

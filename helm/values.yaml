@@ -1,0 +1,6 @@
+namespace:
+  name: default
+image:
+  repository: pixelpotato/python-helloworld
+  tag: v1.0.0
+replicasCount: 3
