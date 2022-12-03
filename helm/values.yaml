@@ -1,5 +1,5 @@
 namespace:
-  name: default
+  name: sandbox
 image:
   repository: pixelpotato/python-helloworld
   tag: v1.0.0
